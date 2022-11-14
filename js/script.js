@@ -22,10 +22,10 @@ modeIcon.addEventListener("click", () =>{
     document.body.classList.toggle("dark-theme")
     
     if(document.body.classList.contains("dark-theme")) {
-        modeIcon.src = "img/moon.png"
+        modeIcon.src = "img/sun.png"
     }
     else{
-        modeIcon.src = "img/sun.png"
+        modeIcon.src = "img/moon.png"
     }
     
 });

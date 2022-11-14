@@ -6,20 +6,20 @@
   transition: 0.4s;
 }
 :root {
-  --white: #fff;
-  --main: rgb(199, 196, 196);
-  --primary: rgb(32, 32, 32);
-  --secondary: rgb(46, 46, 46);
+  --white: rgb(32, 32, 32);
+  --main: rgb(46, 46, 46);
+  --primary: rgb(238, 238, 238);
+  --secondary: #fff;
   --orange: #e47105;
   --PR: "Poppins-Regular";
   --PB: "Poppins-Bold";
   --DR: "DancingScript-Regular";
 }
 .dark-theme {
-  --white: rgb(32, 32, 32);
-  --main: rgb(46, 46, 46);
-  --primary: rgb(238, 238, 238);
-  --secondary: #fff;
+  --white: #fff;
+  --main: rgb(199, 196, 196);
+  --primary: rgb(32, 32, 32);
+  --secondary: rgb(46, 46, 46);
   --orange: #e47105;
 }
 a {
