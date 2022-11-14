@@ -1,0 +1,387 @@
+@media (max-width: 1920px) {
+  .header {
+    padding-top: 250px;
+  }
+  .aside {
+    width: 320px;
+  }
+  .aside__logo {
+    left: 25px;
+  }
+}
+/* @media(max-width:1680px){} */
+/* @media(max-width:1600px){} */
+@media (max-width: 1536px) {
+  .aside {
+    width: 280px;
+  }
+  .aside__logo {
+    left: 60px;
+  }
+}
+/* @media(max-width:1440px){} */
+@media (max-width: 1366px) {
+  .header {
+    padding-top: 150px;
+  }
+  .aside__logo {
+    left: 65px;
+  }
+
+  .nav__list {
+    padding-left: 17% !important;
+  }
+  .main-title {
+    font-size: 30px;
+  }
+  span {
+    font-size: 25px;
+  }
+  .header-img {
+    height: 330px;
+  }
+  .header-bg-top {
+    width: 75px;
+    left: -35px;
+  }
+  .header-bg-bottom {
+    width: 75px;
+    bottom: -40px;
+    right: 40px;
+  }
+  .mode-icon {
+    width: 27px;
+    height: 27px;
+  }
+  .name,
+  .email {
+    width: 450px !important;
+  }
+}
+@media (max-width: 1280px) {
+  .aside {
+    width: 240px;
+  }
+  .aside__logo {
+    left: 43px;
+  }
+}
+@media (max-width: 1080px) {
+  .aside {
+    width: 200px;
+  }
+  .aside__logo {
+    left: 50px;
+  }
+  .aside__logo > img {
+    max-width: 120px;
+    height: 35px;
+  }
+  .nav__link {
+    font-size: 12px;
+    width: 100px;
+    padding: 14px 0 10px 10px;
+  }
+  .main-title {
+    font-size: 25px;
+    padding-bottom: 5px;
+  }
+  .title::before {
+    bottom: -3px;
+  }
+  .title::after {
+    bottom: -12px;
+  }
+  .main-subtitle {
+    font-size: 12px;
+  }
+  .second-title {
+    padding: 10px 0;
+    font-size: 20px;
+  }
+  .second-subtitle {
+    font-size: 12px;
+  }
+  .btn-link {
+    font-size: 10px;
+    padding: 8px 17px;
+    margin-top: 12px;
+  }
+  .data-content {
+    height: 35px;
+  }
+  .about__inner-data-skills-card {
+    padding-top: 15px;
+  }
+  .portfolio__box-imglink > img {
+    height: 140px;
+  }
+  .address-card1-icon {
+    font-size: 25px;
+  }
+  .address-card .second-title {
+    font-size: 20px;
+    padding-top: 10px;
+  }
+  .contact__inner-address-cards {
+    margin-top: 60px;
+  }
+  .name,
+  .email {
+    width: 380px !important;
+  }
+  .contact__inner-mail-card .btn-link {
+    width: 125px !important;
+  }
+}
+@media (max-width: 1024px) {
+  .header-img {
+    height: 250px;
+  }
+  .aside {
+    width: 170px;
+  }
+  .aside__logo {
+    left: 30px;
+  }
+  .nav__list {
+    padding-left: 12% !important;
+  }
+  .nav__link {
+    font-size: 10px;
+    width: 80px;
+    padding: 13px 0 7px 8px;
+  }
+  .contact__inner-address-cards {
+    margin-top: 45px;
+  }
+}
+/* @media(max-width:992px){} */
+@media (max-width: 991px) {
+  .header {
+    padding-top: 120px;
+  }
+  .aside__logo {
+    left: 25px;
+  }
+  .header__inner > .row {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .header-img {
+    max-width: 300px;
+    margin-left: 30%;
+  }
+  .burger {
+    display: block;
+    position: fixed;
+    top: 42px;
+    right: 90px;
+  }
+  .aside {
+    background-color: unset;
+    z-index: -1;
+  }
+  .aside.active {
+    background-color: var(--secondary);
+    z-index: 999;
+  }
+  .nav__list {
+    transform: translateX(-110%);
+  }
+  .nav__list.active {
+    transform: translateX(0);
+  }
+  .title::before,
+  .title::after {
+    height: 0;
+  }
+  .main-title {
+    padding: 0;
+    margin-bottom: 0;
+  }
+  .portfolio__box-imglink > img {
+    height: 170px;
+  }
+  .name,
+  .email {
+    width: 340px !important;
+  }
+}
+@media (max-width: 800px) {
+  .header {
+    padding: 100px 0;
+  }
+  .burger div {
+    width: 20px;
+    height: 2px;
+  }
+  .settings__box {
+    top: 35px;
+  }
+  .mode-icon {
+    width: 18px;
+    height: 18px;
+  }
+  .about,
+  .portfolio,
+  .contact {
+    padding: 60px 0;
+  }
+  .aside__logo-top-arrow {
+    right: -25px;
+  }
+  .aside__logo-bottom-arrow {
+    left: -25px;
+  }
+}
+@media (max-width: 768px) {
+  .main-title {
+    font-size: 20px;
+  }
+  .second-title {
+    font-size: 15px;
+  }
+  span {
+    font-size: 20px;
+  }
+  .second-subtitle {
+    font-size: 11px;
+  }
+  .contact__inner-address-cards {
+    margin-top: 15px;
+    justify-content: space-around;
+  }
+  .contact__inner-mail-card {
+    padding-top: 10px;
+  }
+  .contact__inner-mail-input {
+    font-size: 12px;
+    padding: 10px 0 10px 20px !important;
+  }
+  .contact__inner-mail-msg {
+    font-size: 12px;
+    padding: 10px 0 55px 20px !important;
+  }
+}
+@media (max-width: 767px) {
+  .header {
+    padding: 70px 0;
+  }
+  .header-img {
+    margin-left: 23%;
+  }
+  .nav__list {
+    margin-top: 150px !important;
+  }
+  .portfolio__box-imglink > img {
+    height: 140px;
+  }
+  .contact__inner-mail-card {
+    row-gap: 20px;
+    column-gap: 20px;
+  }
+  .name,
+  .email {
+    width: 260px !important;
+  }
+}
+/* @media(max-width:736px){} */
+/* @media(max-width:734px){} */
+/* @media(max-width:684px){} */
+/* @media(max-width:667px){} */
+/* @media(max-width:640px){} */
+/* @media(max-width:600px){} */
+@media (max-width: 575px) {
+  .about,
+  .portfolio,
+  .contact {
+    padding: 30px 0;
+  }
+  .burger div {
+    width: 18px;
+    height: 2px;
+    margin: 4px;
+  }
+  .burger {
+    top: 43px;
+    right: 80px;
+  }
+  .aside__logo > img {
+    max-width: 90px;
+    height: 25px;
+  }
+  .portfolio__box-imglink > img {
+    height: 200px;
+  }
+  .address-card1-icon {
+    font-size: 20px;
+  }
+  .address-card .second-title {
+    font-size: 15px;
+    padding-top: 5px;
+  }
+  .name,
+  .email {
+    margin: 0 auto;
+    width: 250px !important;
+  }
+  .subject,
+  .contact__inner-mail-msg {
+    margin: 0 auto;
+    width: 94% !important;
+  }
+  .contact__inner-mail-card .btn-link {
+    margin: 0 auto;
+  }
+}
+@media (max-width: 425px) {
+  .aside {
+    width: 150px;
+  }
+  .aside__logo {
+    top: 20px;
+    left: 35px;
+  }
+  .nav__list {
+    padding-left: 0 !important;
+}
+  .burger {
+    top: 20px;
+    right: 50px;
+  }
+  .settings__box {
+    top: 16px;
+    right: 16px;
+    padding: 6px;
+  }
+  .header-img {
+    margin-left: 25%;
+    max-width: 200px;
+    height: 220px;
+  }
+  .contact__inner-address-cards {
+    flex-wrap: wrap;
+  }
+  .name,
+  .email {
+    width: 94% !important;
+  }
+}
+/* @media(max-width:414px){} */
+/* @media(max-width:412px){} */
+@media(max-width:384px){
+  .header-img{
+    margin-left: 20%;
+  }
+  .second-subtitle {
+    font-size: 9px;
+    text-align: justify;
+}
+.about__inner-edu-card > .main-subtitle{
+  text-align: start;
+}
+}
+/* @media(max-width:375px){} */
+/* @media(max-width:360px){} */
+/* @media(max-width:320px){} */

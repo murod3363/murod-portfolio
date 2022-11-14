@@ -1,0 +1,15 @@
+@font-face {
+    font-family: "Poppins-Regular";
+    src: url(../fonts/Poppins-Regular.ttf);
+    font-weight: 400;
+}
+@font-face {
+    font-family: "Poppins-Bold";
+    src: url(../fonts/Poppins-Bold.ttf);
+    font-weight: 700;
+}
+@font-face {
+    font-family: "DancingScript-Regular";
+    src: url(../fonts/DancingScript-Regular.ttf);
+    font-weight: 400;
+}
