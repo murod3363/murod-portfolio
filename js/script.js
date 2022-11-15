@@ -34,7 +34,6 @@ let aside = document.querySelector(".aside")
 let burger = document.querySelector(".burger");
 let navList = document.querySelector(".nav__list");
 burger.addEventListener("click", () => {
-    // console.log(burger);
     navList.classList.toggle("active")
     aside.classList.toggle("active")
 } )
